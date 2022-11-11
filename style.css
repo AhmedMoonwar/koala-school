@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    color: #21B573;
+}
+.cool-bg
+{
+    background-color: #F0FFF0;
+}
+.color-magenda
+{
+    color: #413960;
+}
+.btn-success
+{
+    background-color: #21B573 !important;
+    border-color: #21B573 !important;
+}
+.text-success{
+    color: #21B573 !important;
+}
+.btn-rounded
+{
+    border-radius: 2rem;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+}
+p{
+    line-height: 2em;
+    font-size: 16px;
+    font-weight: normal;
+    color: #585859;
+}
+.navbar-brand img{
+    height: 60px;
+}
+.navbar-expand-sm .navbar-nav .nav-link {
+    padding-right: 30px;
+    color: #000000;
+}
+.single-service{
+    border-radius: 10px;
+    transition: .3s all ease;
+}
+.single-service img{
+    height: 80px;
+}
+.single-service:hover{
+    background: #FFFFFF;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+}
+.course-section .course-info img{
+    height: 24px;
+}
+.course-section .course-info p{
+    margin-bottom: 0;
+}
+.course-section .card{
+    padding: 12px;
+    border: 0 !important;
+    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.1);
+    border-radius: 18px;
+    transition: .3s all ease-out;
+}
+.course-section .card:hover{
+    transform: scale(1.03)
+}
+@media (max-width:777px){
+    .testimonial-section img{
+        max-width: 140px;
+    }
+}
+footer{
+    background-color: #282531;
+}
+footer a{
+    color: #FFFFFF;
+}
+footer li{
+    padding-top: 10px;
+}
+.copyright p{
+    color: #CDCDCD;
+}
+.copyright span:hover{
+    color: #21B573;
+}
